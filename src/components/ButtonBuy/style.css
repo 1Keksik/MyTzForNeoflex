@@ -1,0 +1,26 @@
+.buy {
+    position: absolute;
+    bottom: -2px;
+    right: -4px;
+    padding: 2px 4px;
+
+    font-weight: 600;
+    color: #000000;
+
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.buy:hover {
+    background: #EAEAEA;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buy:active {
+    background-color: #d5d5d5;
+    /* Ещё темнее при нажатии */
+    transform: translateY(0);
+    /* Возвращается на место */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}

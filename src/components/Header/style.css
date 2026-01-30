@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #101010;
+}
+
+.header__icons {
+    display: flex;
+}
+
+.ico {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+
+    border-radius: 25px;
+    transition: all 0.1s ease;
+}
+
+.ico:hover {
+    background: #c9c9c9;
+}
+
+.ico:active {
+    background-color: rgb(187, 187, 187);
+}
+
+.cart__counter {
+    width: 18px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -8px;
+    border-radius: 11px;
+    font-weight: 500;
+    font-size: 15px;
+    background: #FFA542;
+    color: #fff;
+}
