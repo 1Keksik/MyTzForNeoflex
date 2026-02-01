@@ -1,4 +1,4 @@
-footer {
+.footer-content {
     height: 150px;
     padding: 29px;
     background: #fff;
@@ -8,42 +8,42 @@ footer {
     border-radius: 30px 30px 0 0;
 }
 
-.social {
-    display: flex;
-    align-items: center;
-    max-height: 30px;
-    gap: 18px;
-}
-
-.col1 {
+.footer-content__col1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.col1 li {
+.footer-content__col1 li {
     font-weight: 400;
 
 }
 
-.col2 {
+.footer-content__col2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.lang {
+.footer-content__lang {
     display: flex;
     justify-content: space-between;
 }
 
-.lang button {
+.footer-content__lang button {
     font-size: 15px;
     font-weight: 500;
     color: #101010;
 }
 
-.lang-btn.selected {
+.footer-content__lang-btn.selected {
     font-weight: 700;
     color: #FFA542;
+}
+
+.footer-content__social {
+    display: flex;
+    align-items: center;
+    max-height: 30px;
+    gap: 18px;
 }

@@ -30,7 +30,7 @@ const ButtonBuy = ({ product, totalCount, setTotalCount }) => {
     };
 
     return (
-        <button onClick={() => addToCart(product)} className='buy'>Купить</button>
+        <button onClick={() => addToCart(product)} className='product-block__buy'>Купить</button>
     );
 }
 

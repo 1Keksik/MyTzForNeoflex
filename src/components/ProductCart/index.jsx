@@ -10,32 +10,32 @@ const ProductCart = ({ product, decrease, deleteToProduct, increase }) => {
     };
 
     return (
-        <div className='cartProduct__item'>
-            <div className='img__countController'>
-                <div className="img__container">
+        <div className='cartProduct-block'>
+            <div className='cartProduct-block__imgAndCountController'>
+                <div className="cartProduct-block__imgСontainer">
                     <img src={`./img/product/${img}`} alt="/" />
                 </div>
-                <div className='item__countController'>
-                    <button onClick={() => decrease(id)} className='buttonControl'>
+                <div className='cartProduct-block__countController'>
+                    <button onClick={() => decrease(id)} className='cartProduct-block__buttonControl'>
                         <img src='./img/ico/minus.svg' alt="/" />
                     </button>
-                    <span className='product__kolvo'>{count}</span>
-                    <button onClick={() => increase(id)} className='buttonControl'>
+                    <span className='cartProduct-block__kolvo'>{count}</span>
+                    <button onClick={() => increase(id)} className='cartProduct-block__buttonControl'>
                         <img src='./img/ico/plus.svg' alt="/" />
                     </button>
                 </div>
             </div>
-            <div className='title_price'>
-                <h3 className='cartProduct__title'>
+            <div className='cartProduct-block__titleAndPrice'>
+                <h3 className='cartProduct-block__title'>
                     {title}
                 </h3>
-                <span className='cartProduct__prise'>
+                <span className='cartProduct-block__prise'>
                     {formattedPrice(newPrise)}
                 </span>
-                <button onClick={() => deleteToProduct(id)} className='remove'>
+                <button onClick={() => deleteToProduct(id)} className='cartProduct-block__remove'>
                     <img src='./img/ico/remove.svg' alt="/" />
                 </button>
-                <div className='productAllPrice'>
+                <div className='cartProduct-block__allPrice'>
                     {formattedPrice(priceTotal)}
                 </div>
             </div>

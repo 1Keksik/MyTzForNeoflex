@@ -1,11 +1,11 @@
-header {
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
 }
 
-.header__logo {
+.logo {
     font-weight: 700;
     font-size: 25px;
     text-transform: uppercase;
@@ -14,11 +14,11 @@ header {
     color: #101010;
 }
 
-.header__icons {
+.header-content__icons {
     display: flex;
 }
 
-.ico {
+.header-content__ico {
     position: relative;
     display: flex;
     justify-content: center;
@@ -30,15 +30,15 @@ header {
     transition: all 0.1s ease;
 }
 
-.ico:hover {
+.header-content__ico:hover {
     background: #c9c9c9;
 }
 
-.ico:active {
+.header-content__ico:active {
     background-color: rgb(187, 187, 187);
 }
 
-.cart__counter {
+.header-content__icoCounter {
     width: 18px;
     height: 19px;
     display: flex;

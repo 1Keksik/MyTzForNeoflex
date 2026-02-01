@@ -12,21 +12,21 @@ const Footer = () => {
     ];
 
     return (
-        <footer>
-            <span className='header__logo'>qpick</span>
-            <ul className='col1'>
+        <footer className='footer-content'>
+            <span className='logo'>qpick</span>
+            <ul className='footer-content__col1'>
                 <li>Избранное</li>
                 <li>Корзина</li>
                 <li>Контакты</li>
             </ul>
-            <ul className='col2'>
+            <ul className='footer-content__col2'>
                 <li>Условия сервиса</li>
-                <li className='lang'>
+                <li className='footer-content__lang'>
                     <img src='./img/ico/language.svg' alt="/" width="20" height="20" />
                     {languages.map((lang) => (
                         <button
                             key={lang.code}
-                            className={`lang-btn ${selectedLang === lang.code ? 'selected' : ''
+                            className={`footer-content__lang-btn ${selectedLang === lang.code ? 'selected' : ''
                                 }`}
                             onClick={() => setSelectedLang(lang.code)}>
                             {lang.label}
@@ -35,7 +35,7 @@ const Footer = () => {
                 </li>
             </ul>
 
-            <ul className="social">
+            <ul className="footer-content__social">
                 <li><img src='./img/ico/VK.svg' alt='/' width="30" height="20" /></li>
                 <li><img src='./img/ico/Telegram.svg' alt='/' width="30" height="30" /></li>
                 <li><img src='./img/ico/Whatsapp.svg' alt='/' width="30" height="30" /></li>

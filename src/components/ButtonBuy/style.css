@@ -1,4 +1,4 @@
-.buy {
+.product-block__buy {
     position: absolute;
     bottom: -2px;
     right: -4px;
@@ -11,13 +11,13 @@
     transition: all 0.3s ease;
 }
 
-.buy:hover {
+.product-block__buy:hover {
     background: #EAEAEA;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.buy:active {
+.product-block__buy:active {
     background-color: #d5d5d5;
     /* Ещё темнее при нажатии */
     transform: translateY(0);

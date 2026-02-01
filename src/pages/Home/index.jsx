@@ -20,13 +20,13 @@ const Home = ({ totalCount, setTotalCount }) => {
 
     return (
         <div className='main'>
-            <div className='headphones'>
+            <div className='home-products'>
                 <p>Наушники</p>
-                <div className='conteiner__product'>
+                <div className='home-products__conteiner'>
                     {productsWired}
                 </div>
                 <p>Беспроводные наушники</p>
-                <div className='conteiner__product'>
+                <div className='home-products__conteiner'>
                     {productsWireless}
                 </div>
             </div>

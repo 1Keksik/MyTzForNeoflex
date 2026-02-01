@@ -1,4 +1,4 @@
-.shopping__cart p {
+.shopping-cart p {
     margin-top: 28px;
     margin-bottom: 13px;
 
@@ -7,25 +7,25 @@
     color: #1C1C27;
 }
 
-.cartProduct__result {
+.shopping-cart__cartProductAndResult {
     display: flex;
     justify-content: space-between;
 }
 
-.cartProduct {
+.shopping-cart__cartProduct {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.result {
+.shopping-cart__result {
     min-width: 350px;
     align-self: start;
     position: relative;
 }
 
-.itogo {
+.shopping-cart__itogo {
     padding: 20px;
     height: 115px;
 
@@ -35,22 +35,20 @@
 
     display: flex;
     justify-content: space-between;
-}
 
-.itogo__text {
     font-weight: 600;
     font-size: 15px;
     color: #000000;
     text-transform: uppercase;
 }
 
-.itogo__sum {
+.shopping-cart__sumsum {
     font-weight: 600;
     font-size: 15px;
     color: #000000;
 }
 
-.itogo__btn {
+.shopping-cart__btn {
     width: 100%;
     height: 65px;
 
@@ -67,12 +65,12 @@
     transition: all 0.3s ease;
 }
 
-.itogo__btn:hover {
+.shopping-cart__btn:hover {
     background: #4d4848;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.itogo__btn:active {
+.shopping-cart__btn:active {
     background-color: #393636;
     /* Ещё темнее при нажатии */
     transform: translateY(0);

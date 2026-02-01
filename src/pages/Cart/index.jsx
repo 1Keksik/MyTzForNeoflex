@@ -89,22 +89,20 @@ const Cart = ({ totalCount, setTotalCount }) => {
 
     return (
         <div className='main'>
-            <div className='shopping__cart'>
+            <div className='shopping-cart'>
                 <p>Корзина</p>
-                <div className='cartProduct__result'>
-                    <div className='cartProduct'>
+                <div className='shopping-cart__cartProductAndResult'>
+                    <div className='shopping-cart__cartProduct'>
                         {ItemCart}
                     </div>
-                    <div className='result'>
-                        <div className='itogo'>
-                            <span className='itogo__text'>
-                                итого
-                            </span>
-                            <span className='itogo__sum'>
+                    <div className='shopping-cart__result'>
+                        <div className='shopping-cart__itogo'>
+                            итого
+                            <span className='shopping-cart__sum'>
                                 {formattedPrice}
                             </span>
                         </div>
-                        <button className='itogo__btn'>Перейти к оформлению</button>
+                        <button className='shopping-cart__btn'>Перейти к оформлению</button>
                     </div>
                 </div>
             </div>

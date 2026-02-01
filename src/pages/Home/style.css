@@ -1,18 +1,18 @@
- .headphones {
-     margin-bottom: 20px;
- }
+.home-products {
+    margin-bottom: 20px;
+}
 
- .conteiner__product {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 30px;
- }
+.products p {
+    margin-top: 28px;
+    margin-bottom: 20px;
 
- .headphones p {
-     margin-top: 28px;
-     margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #838383;
+}
 
-     font-size: 20px;
-     font-weight: 600;
-     color: #838383;
- }
+.home-products__conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

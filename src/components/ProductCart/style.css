@@ -1,4 +1,4 @@
-.cartProduct__item {
+.cartProduct-block {
     width: 633px;
     padding: 18px 28px 15px 18px;
 
@@ -12,13 +12,13 @@
 
 }
 
-.img__countController {
+.cartProduct-block__imgAndCountController {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img__container {
+.cartProduct-block__imgСontainer {
     width: 146px;
     /* фиксированная ширина */
     height: 136px;
@@ -28,7 +28,7 @@
     margin-bottom: 20px;
 }
 
-.img__container img {
+.cartProduct-block__imgСontainer img {
     width: 100%;
     /* занимает всю ширину контейнера */
     height: 100%;
@@ -39,24 +39,24 @@
     /* центрируем изображение внутри контейнера */
 }
 
-.item__countController {
+.cartProduct-block__countController {
     display: flex;
     min-width: 120px;
     align-items: center;
     justify-content: space-between;
 }
 
-.buttonControl {
+.cartProduct-block__buttonControl {
     border-radius: 30px;
     transition: all 0.3s ease;
 }
 
-.buttonControl:hover {
+.cartProduct-block__buttonControl:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.buttonControl:active {
+.cartProduct-block__buttonControl:active {
     background-color: #d5d5d5;
     /* Ещё темнее при нажатии */
     transform: translateY(0);
@@ -64,11 +64,11 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-.product__kolvo {
+.cartProduct-block__kolvo {
     font-weight: 600;
 }
 
-.title_price {
+.cartProduct-block__titleAndPrice {
     width: 100%;
 
     display: flex;
@@ -80,18 +80,18 @@
     gap: 12px;
 }
 
-.cartProduct__title {
+.cartProduct-block__title {
     font-weight: 500;
     color: #1C1C27;
 }
 
-.cartProduct__prise {
+.cartProduct-block__prise {
     font-weight: 600;
     font-size: 15px;
     color: #AAAAAA;
 }
 
-.remove {
+.cartProduct-block__remove {
     position: absolute;
     top: -4px;
     right: -4px;
@@ -100,13 +100,13 @@
     border-radius: 20px;
 }
 
-.remove:hover {
+.cartProduct-block__remove:hover {
     background-color: #f8d5d5;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(253, 117, 117, 0.2);
 }
 
-.remove:active {
+.cartProduct-block__remove:active {
     background-color: #f5bfbf;
     /* Ещё темнее при нажатии */
     transform: translateY(0);
@@ -114,7 +114,7 @@
     box-shadow: 0 4px 8px rgba(253, 117, 117, 0.2);
 }
 
-.productAllPrice {
+.cartProduct-block__allPrice {
     position: absolute;
     bottom: 6px;
     right: 0;
